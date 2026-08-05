@@ -1,37 +1,35 @@
-<img width="1492" height="807" alt="Screenshot 2026-08-05 001547" src="https://github.com/user-attachments/assets/e3ac397d-089a-4894-b048-78fa151c72fa" />
-<img width="1392" height="847" alt="Screenshot 2026-08-05 001720" src="https://github.com/user-attachments/assets/a97a4023-54a5-4f63-b3bd-b95d60f8a5d3" />
-<img width="1387" height="842" alt="Screenshot 2026-08-05 001801" src="https://github.com/user-attachments/assets/75843ad0-d9ac-4cc4-8d0b-54b50bf56121" />
-<img width="1065" height="712" alt="Screenshot 2026-08-05 001839" src="https://github.com/user-attachments/assets/da3acbba-7211-48b7-9ac7-03c3de59abde" />
-<img width="1918" height="831" alt="Screenshot 2026-08-05 001827" src="https://github.com/user-attachments/assets/a1cde29f-a026-41a8-861a-db76d25bfda4" />
+<img width="1492" height="807" alt="Screenshot 2026-08-05 001547" src="https://github.com/user-attachments/assets/b7556a7a-1438-4f10-a82b-93403fe8afc3" />
+<img width="1367" height="771" alt="Screenshot 2026-08-05 165237" src="https://github.com/user-attachments/assets/7f3a0d53-dff2-4fc1-bda3-41d5fc927496" />
+<img width="1376" height="767" alt="Screenshot 2026-08-05 165251" src="https://github.com/user-attachments/assets/02fafb31-8013-4234-8f80-86733e62a7a5" />
+<img width="1065" height="712" alt="Screenshot 2026-08-05 001839" src="https://github.com/user-attachments/assets/309c253f-9bc0-4584-93c3-1ac0717be472" />
+<img width="1918" height="831" alt="Screenshot 2026-08-05 001827" src="https://github.com/user-attachments/assets/bffc91e9-8605-455d-b18e-aeadc4053762" />
 
-📊 Sallah Call Center Performance & Operations Analysis
-🎯 Project Objective
-Transformed and analyzed 1.7 million call records from the "Sallah" call center into actionable business insights using Power BI. The goal was to evaluate operational performance, enhance customer experience (CX), and align operational forecasts with reality to minimize unnecessary expenditures.
+How do you optimize operations for a call center processing over 1.7 Million calls? 
+🚀 Transforming Call Center Data into Actionable Business Value: Sallah Analytics Case Study
 
-📈 Detailed Analysis & Business Impact
-1. Overall Service Efficiency Evaluation
-Analytical Result: The call center achieved a 98.7% Handling Rate, an Average Speed of Answer (ASA) of just 9 seconds, and a very low Abandonment Rate of 1.3%.
+Instead of just looking at raw call counts, I developed an interactive multi-page Power BI Dashboard for Sallah (سلة) that translates operational metrics into strategic business decisions.
 
-Business Value:
-Proves full compliance with the Service Level Agreement (SLA), ensuring high customer satisfaction.
-Establishes these metrics as a benchmark for evaluating future branches or projects.
+Here is a breakdown of the dynamic analysis and its direct business impact:
 
-2. Workforce & Forecast Optimization
-Analytical Result: The comparison between forecasted and actual calls revealed a significant variance, where forecasts were consistently higher than actual call volumes across all three months (e.g., February forecasted 700K calls vs. 450K actual). Additionally, daily trend analysis identified distinct peaks (e.g., days 7 and 24 reaching up to 80K calls).
+📊 1. Workforce & Forecast Optimization
+* Insight: Comparing forecasted vs. actual call volumes revealed a consistent over-estimation gap (e.g., Feb forecasted 700K vs. 450K actual). Daily trend interactivity also highlighted massive surges on specific dates (up to 80K calls on days 7 & 24).
+* Business Value: Fine-tuning the forecasting model prevents over-staffing, reducing unnecessary operational & labor costs while ensuring maximum agent coverage during predictable peak traffic days.
 
-Business Value:
-Forecasting Model Fine-Tuning: Recalibrating the forecasting model prevents over-scheduling agents, thereby reducing unnecessary operational costs and labor expenses.
-Smart Scheduling: Scheduling more staff on predictable peak days prevents bottlenecks and delays, while optimizing headcount on low-volume days.
+ 🎯 2. Targeted Agent Coaching
+* Insight: Granular breakdown on the secondary analysis page revealed individual performance variations in abandonment rates (ranging from 0.5% up to 0.9% for top agents like Huda & Dina).
+* Business Value: Enables management to deliver targeted coaching for specific agents needing response-time support, rather than running expensive, blanket team-wide training.
 
-3. Agent Performance Tracking & Training Needs
-Analytical Result: Analyzing the abandonment rate by individual agents revealed performance variations; certain agents (e.g., Huda at 0.9% and Dina at 0.8%) recorded higher abandonment rates compared to the team average.
+⚖️ 3. Balanced Project Workload
+* Insight: Slicing data across projects showed Project A handling the largest volume (1.54M calls), followed by Project B (1.50M) and Project C (1.30M).
+* Business Value: Facilitates data-driven re-allocation of support staff based on real-time project demand to prevent agent burnout and maintain service efficiency.
 
-Business Value:
-Directs targeted coaching and training to agents struggling with response times, avoiding costly, blanket team-wide training programs.
-Identifies top-performing agents' best practices to share across the team and standardize quality.
-4. Project Resource Allocation
-Analytical Result: Project A handles the largest portion of call volume at 1.54M calls, followed by Project B (1.50M), and Project C (1.30M).
+ 🏆 4. Operational Excellence Benchmarks
+* Insight: Maintained a strong 98.7% Handling Rate, an Average Speed of Answer (ASA) of just 9 seconds, and an Abandonment Rate of only 1.3%.
+* Business Value: Solidified high customer satisfaction and established strong SLA performance benchmarks for future operational scaling.
 
-Business Value:
-Reallocates support staff based on actual workload per project, preventing team burnout on high-volume projects and balancing overall workload distribution.
-🛠️ Technical Stack & ArchitectureAnalytics & Visualization: Microsoft Power BIData Model: Star Schema architecture linking a central calendar dimension table (Calender) to monthly fact tables (Feb, Mar, Apr) via a $1 \to \infty$ relationship.Data Transformation & DAX: Built dynamic DAX measures to calculate total calls, handling rates, abandonment rates, and time averages.If you need a README.md raw code block for GitHub or specific sections adjusted, let me know!
+🛠️ Interactive & Technical Highlights:
+* Navigation & Structure: Built a seamless 3-page user journey (Home Landing Page, Main Overview Dashboard, and Deep-Dive Agent/Trend Analysis).
+* Data Architecture: Modeled using a clean Star Schema in Power BI with fully dynamic cross-filtering.
+* Advanced Metrics: Engineered custom DAX measures for real-time KPI tracking (ASA, Handling Rate %, Abandonment Rate %).
+
+ 💡 As Data Analysts, our role isn't just to build pretty visualizations—it's to bridge raw data with actionable business value and cost optimization.
